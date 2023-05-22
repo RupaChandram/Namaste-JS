@@ -40,6 +40,14 @@ const users = [{ fname: "rupa", lname: "chandra" }, { fname: "nitu", lname: "pra
 const fullnames = users.map((x) => x.fname + "  " + x.lname);
 console.log(fullnames);
 
+const myAwesomeArray = [1, 2, 3, 4, 5]
+const newArr = myAwesomeArray.forEach((x) => x * x);
+console.log(newArr)
+
+const mapArr=myAwesomeArray.map(x => x * x)
+console.log(mapArr)
+//>>>>>>>>>>>>>return value: [1, 4, 9, 16, 25]
+
 
 // const output = arr.map(double);
 //console.log(output);
