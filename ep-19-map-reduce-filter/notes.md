@@ -34,7 +34,7 @@ const sum = arr.reduce(function (acc, curr) {
 }, 0);
 ```
 
-
+#### the main difference between map() and forEach() is that map() creates a new array with the transformed values, while forEach() is used for iterating over the elements of an array and performing side effects. Additionally, map() returns a new array, while forEach() does not return anything.
 
 
 
